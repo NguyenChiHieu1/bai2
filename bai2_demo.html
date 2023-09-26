@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="bai2_demo.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="color_display">
+            <label for="" class="color_code" style="margin-left: 30px;">Màu HEX :&nbsp </label>
+            <div id="color_code">#FFFFFF</div><br>
+            <button id="copy_button">Copy</button>
+        </div>
+
+        <div class="btn_color">
+            <button id="pick_button">Pick a Color</button>
+            <button id="gradient_btn">Gradient</button>
+        </div>
+
+        <div class="btn_gradient">
+            <button class="close_gradient">x</button>
+            <label for="">Màu left: </label>
+            <input type="color" class="first"><br/>
+            <label for="">Màu right:</label>
+            <input type="color" class="second"><br/>
+        </div>
+        
+    </div>
+    <script src="bai2_demo.js"></script>
+</body>
+</html>
